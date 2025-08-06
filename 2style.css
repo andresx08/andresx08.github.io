@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.intro {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.intro img:hover {
+    transform: scale(1.1);
+}
+
+.teams {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.teams ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teams li {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.calendar {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #1a128b;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.info-box {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+    
+}
+header {
+    width: 100%;
+    height: 200px;
+    background-image: url('img/NeedForSpeed-SciSports-Edition-header-PremierLeague-1280x720.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+a:hover{
+    color: #a31414;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight:bolder ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

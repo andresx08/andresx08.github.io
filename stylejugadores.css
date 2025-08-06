@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+section{
+    flex: 80%;
+    background-color: rgb(253, 251, 251);
+    padding: 20px;
+    text-align: justify;
+}
+
+section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.father{
+    background-color: #b66b6b;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.father2{
+    background-color: #a9ecf8;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.father3{
+    background-color: #f7f7c4;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.father4{
+    background-color: #d6daf3;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.father5{
+    background-color: #dedee4;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.father6{
+    background-color: #dedee4;
+    width: auto;
+    padding: 5px;
+    margin: 120px;
+}
+
+.logoarsenal{
+    width: 60px;
+    height: 60px;
+}
+
+.logoliverpool{
+    width: 60px;
+    height: 60px;
+}
+
+.logomanchesterunited{
+    width: 60px;
+    height: 60px;
+}
+
+.logomanchestercity{
+    width: 80px;
+    height: 80px;
+}
+
+.logoNewcastle{
+    width: 70px;
+    height: 70px;
+}
+
+.logochelsea{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo1{
+    color: rgb(246, 4, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 4px 2px #000;
+    text-align: center;
+}
+
+.titulo2{
+    color: rgb(84, 215, 200);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 4px 2px #000000;
+    text-align: center;
+}
+
+.titulo3{
+    color: #FFCC00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 5px 2px #000000;
+    text-align: center;
+}
+
+.titulo4{
+    color: #598dc9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 5px 2px #000000;
+    text-align: center;
+}
+
+.titulo5{
+    color: #eef3fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 5px 2px #000000;
+    text-align: center;
+}
+
+.titulo6{
+    color: #586fa0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 50px;
+    text-shadow: 5px 2px #000000;
+    text-align: center;
+}
+
+.producto {
+    width: 350px;
+    border: 3px solid #d40000;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(235, 226, 104, 0.562);
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto2 {
+    width: 350px;
+    border: 4px solid rgb(84, 215, 200);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(134, 66, 66, 0.959);
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto3 {
+    width: 350px;
+    border: 4px solid #FBE122;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 4px 10px #685729;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto4 {
+    width: 350px;
+    border: 4px solid #37519e;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #2421e9;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto5 {
+    width: 350px;
+    border: 4px solid #0055A4;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 6px 6px 10px #a09f9f;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto6 {
+    width: 350px;
+    border: 4px solid #005BAC;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 6px 6px 10px#002F6C;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto2:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto3:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto4:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto5:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto6:hover {
+    transform: scale(1.05);
+    border-color:  #000000;
+}
+
+.producto-img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto-descripcion {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.productos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 200px;
+    background-image: url('img/NeedForSpeed-SciSports-Edition-header-PremierLeague-1280x720.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+a:hover{
+    color: #a31414;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight:bolder ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
